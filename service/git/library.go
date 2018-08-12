@@ -1,11 +1,15 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 11:57:50.86147846 +0200 CEST m=+0.186676333
+- Status: analyzed
+*/
+
 package git
 
 import (
 	"fmt"
 	"os"
 	"sync"
-
-	"github.com/src-d/lookout"
 
 	"gopkg.in/src-d/go-billy.v4"
 	"gopkg.in/src-d/go-errors.v1"
@@ -14,6 +18,8 @@ import (
 	"gopkg.in/src-d/go-git.v4/storage"
 	"gopkg.in/src-d/go-git.v4/storage/filesystem"
 	log "gopkg.in/src-d/go-log.v1"
+
+	"github.com/sniperkit/snk.fork.lookout"
 )
 
 var (

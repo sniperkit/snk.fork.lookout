@@ -1,6 +1,14 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 11:57:50.86147846 +0200 CEST m=+0.186676333
+- Status: analyzed
+*/
+
 package lookout
 
-import "context"
+import (
+	"context"
+)
 
 // AnalysisStatus is the status reported to the provider to
 // inform that we are performing an analysis, or that it has finished

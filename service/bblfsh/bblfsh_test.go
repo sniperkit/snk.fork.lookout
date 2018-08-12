@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 11:57:50.86147846 +0200 CEST m=+0.186676333
+- Status: analyzed
+*/
+
 package bblfsh
 
 import (
@@ -5,14 +11,14 @@ import (
 	"net"
 	"testing"
 
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/mock"
-
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 	"google.golang.org/grpc"
 	"gopkg.in/bblfsh/sdk.v1/protocol"
 	"gopkg.in/bblfsh/sdk.v1/uast"
+
+	"github.com/sniperkit/snk.fork.lookout"
+	"github.com/sniperkit/snk.fork.lookout/mock"
 )
 
 type ServiceSuite struct {

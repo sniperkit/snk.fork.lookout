@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 11:57:50.86147846 +0200 CEST m=+0.186676333
+- Status: analyzed
+*/
+
 package lookout
 
 import (
@@ -8,10 +14,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/src-d/lookout/pb"
-
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
+
+	"github.com/sniperkit/snk.fork.lookout/pb"
 )
 
 func setupDataServer(t *testing.T, dr *MockService) (*grpc.Server,

@@ -1,10 +1,16 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 11:57:50.86147846 +0200 CEST m=+0.186676333
+- Status: analyzed
+*/
+
 package store
 
 import (
 	"context"
 
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/store/models"
+	"github.com/sniperkit/snk.fork.lookout"
+	"github.com/sniperkit/snk.fork.lookout/store/models"
 )
 
 // EventOperator manages persistence of Events

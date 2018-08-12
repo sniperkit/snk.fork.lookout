@@ -1,12 +1,19 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 11:57:50.86147846 +0200 CEST m=+0.186676333
+- Status: analyzed
+*/
+
 package github
 
 import (
 	"net/http"
 
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/util/cache"
 	vcsurl "gopkg.in/sourcegraph/go-vcsurl.v1"
 	log "gopkg.in/src-d/go-log.v1"
+
+	"github.com/sniperkit/snk.fork.lookout"
+	"github.com/sniperkit/snk.fork.lookout/util/cache"
 )
 
 // UserToken holds github username and token

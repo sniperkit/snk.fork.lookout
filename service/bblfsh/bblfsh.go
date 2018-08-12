@@ -1,14 +1,20 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 11:57:50.86147846 +0200 CEST m=+0.186676333
+- Status: analyzed
+*/
+
 package bblfsh
 
 import (
 	"context"
 
-	"github.com/src-d/lookout"
-
 	"google.golang.org/grpc"
 	"gopkg.in/bblfsh/sdk.v1/protocol"
 	"gopkg.in/bblfsh/sdk.v1/uast"
 	log "gopkg.in/src-d/go-log.v1"
+
+	"github.com/sniperkit/snk.fork.lookout"
 )
 
 // Service implements data service interface which adds UAST to the responses

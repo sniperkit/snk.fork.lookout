@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 11:57:50.86147846 +0200 CEST m=+0.186676333
+- Status: analyzed
+*/
+
 package git
 
 import (
@@ -5,12 +11,12 @@ import (
 	"io/ioutil"
 	"regexp"
 
-	"github.com/src-d/lookout"
-
 	enry "gopkg.in/src-d/enry.v1"
 	"gopkg.in/src-d/go-git.v4/plumbing/object"
 	"gopkg.in/src-d/go-git.v4/plumbing/storer"
 	gitioutil "gopkg.in/src-d/go-git.v4/utils/ioutil"
+
+	"github.com/sniperkit/snk.fork.lookout"
 )
 
 // TreeScanner is a scanner for files of git tree

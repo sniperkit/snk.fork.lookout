@@ -1,10 +1,14 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 11:57:50.86147846 +0200 CEST m=+0.186676333
+- Status: analyzed
+*/
+
 package git
 
 import (
 	"fmt"
 	"testing"
-
-	"github.com/src-d/lookout"
 
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
@@ -13,6 +17,8 @@ import (
 	"gopkg.in/src-d/go-git.v4/plumbing/object"
 	"gopkg.in/src-d/go-git.v4/plumbing/storer"
 	"gopkg.in/src-d/go-git.v4/storage/filesystem"
+
+	"github.com/sniperkit/snk.fork.lookout"
 )
 
 type ScannerSuite struct {

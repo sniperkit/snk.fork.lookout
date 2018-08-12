@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 11:57:50.86147846 +0200 CEST m=+0.186676333
+- Status: analyzed
+*/
+
 package json
 
 import (
@@ -7,10 +13,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/pb"
-
 	"github.com/stretchr/testify/suite"
+
+	"github.com/sniperkit/snk.fork.lookout"
+	"github.com/sniperkit/snk.fork.lookout/pb"
 )
 
 type WatcherTestSuite struct {

@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 11:57:50.86147846 +0200 CEST m=+0.186676333
+- Status: analyzed
+*/
+
 package json
 
 import (
@@ -7,9 +13,9 @@ import (
 	"io"
 	"strings"
 
-	"github.com/src-d/lookout"
-
 	"gopkg.in/src-d/go-log.v1"
+
+	"github.com/sniperkit/snk.fork.lookout"
 )
 
 // Provider is the name

@@ -1,13 +1,19 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 11:57:50.86147846 +0200 CEST m=+0.186676333
+- Status: analyzed
+*/
+
 package git
 
 import (
 	"context"
 	"fmt"
 
-	"github.com/src-d/lookout"
-
 	"gopkg.in/src-d/go-git-fixtures.v3"
 	"gopkg.in/src-d/go-git.v4/storage/filesystem"
+
+	"github.com/sniperkit/snk.fork.lookout"
 )
 
 func Example() {

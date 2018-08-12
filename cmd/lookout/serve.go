@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 11:57:50.86147846 +0200 CEST m=+0.186676333
+- Status: analyzed
+*/
+
 package main
 
 import (
@@ -8,25 +14,25 @@ import (
 	"os"
 	"strings"
 
-	"github.com/gregjones/httpcache/diskcache"
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/provider/github"
-	"github.com/src-d/lookout/provider/json"
-	"github.com/src-d/lookout/server"
-	"github.com/src-d/lookout/service/bblfsh"
-	"github.com/src-d/lookout/service/git"
-	"github.com/src-d/lookout/store"
-	"github.com/src-d/lookout/store/models"
-	"github.com/src-d/lookout/util/cache"
-	"github.com/src-d/lookout/util/cli"
-	"github.com/src-d/lookout/util/grpchelper"
-
 	"github.com/golang-migrate/migrate"
+	"github.com/gregjones/httpcache/diskcache"
 	_ "github.com/lib/pq"
 	"google.golang.org/grpc"
 	"gopkg.in/src-d/go-billy.v4/osfs"
 	"gopkg.in/src-d/go-log.v1"
 	yaml "gopkg.in/yaml.v2"
+
+	"github.com/sniperkit/snk.fork.lookout"
+	"github.com/sniperkit/snk.fork.lookout/provider/github"
+	"github.com/sniperkit/snk.fork.lookout/provider/json"
+	"github.com/sniperkit/snk.fork.lookout/server"
+	"github.com/sniperkit/snk.fork.lookout/service/bblfsh"
+	"github.com/sniperkit/snk.fork.lookout/service/git"
+	"github.com/sniperkit/snk.fork.lookout/store"
+	"github.com/sniperkit/snk.fork.lookout/store/models"
+	"github.com/sniperkit/snk.fork.lookout/util/cache"
+	"github.com/sniperkit/snk.fork.lookout/util/cli"
+	"github.com/sniperkit/snk.fork.lookout/util/grpchelper"
 )
 
 func init() {

@@ -1,7 +1,13 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 11:57:50.86147846 +0200 CEST m=+0.186676333
+- Status: analyzed
+*/
+
 package cli
 
 import (
-	"github.com/src-d/lookout/util/grpchelper"
+	"github.com/sniperkit/snk.fork.lookout/util/grpchelper"
 )
 
 type initializer interface {

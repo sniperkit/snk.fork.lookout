@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 11:57:50.86147846 +0200 CEST m=+0.186676333
+- Status: analyzed
+*/
+
 package main
 
 import (
@@ -7,16 +13,16 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/service/bblfsh"
-	"github.com/src-d/lookout/service/git"
-	"github.com/src-d/lookout/util/cli"
-	"github.com/src-d/lookout/util/grpchelper"
 	"google.golang.org/grpc"
-
 	gogit "gopkg.in/src-d/go-git.v4"
 	"gopkg.in/src-d/go-git.v4/plumbing"
 	"gopkg.in/src-d/go-log.v1"
+
+	"github.com/sniperkit/snk.fork.lookout"
+	"github.com/sniperkit/snk.fork.lookout/service/bblfsh"
+	"github.com/sniperkit/snk.fork.lookout/service/git"
+	"github.com/sniperkit/snk.fork.lookout/util/cli"
+	"github.com/sniperkit/snk.fork.lookout/util/grpchelper"
 )
 
 type EventCommand struct {

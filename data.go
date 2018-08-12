@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 11:57:50.86147846 +0200 CEST m=+0.186676333
+- Status: analyzed
+*/
+
 package lookout
 
 import (
@@ -5,10 +11,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/src-d/lookout/pb"
+	"google.golang.org/grpc"
 	"gopkg.in/src-d/go-git.v4/utils/ioutil"
 
-	"google.golang.org/grpc"
+	"github.com/sniperkit/snk.fork.lookout/pb"
 )
 
 type ChangesRequest = pb.ChangesRequest

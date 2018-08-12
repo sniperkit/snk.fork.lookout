@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 11:57:50.86147846 +0200 CEST m=+0.186676333
+- Status: analyzed
+*/
+
 package github
 
 import (
@@ -11,10 +17,11 @@ import (
 
 	"github.com/google/go-github/github"
 	"github.com/gregjones/httpcache"
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/util/cache"
 	"github.com/stretchr/testify/suite"
 	"gopkg.in/src-d/go-git.v4/plumbing"
+
+	"github.com/sniperkit/snk.fork.lookout"
+	"github.com/sniperkit/snk.fork.lookout/util/cache"
 )
 
 var (
@@ -240,7 +247,7 @@ func (s *PosterTestSuite) TestStatusOK() {
 
 		expected, _ := json.Marshal(&github.RepoStatus{
 			State:       strptr("pending"),
-			TargetURL:   strptr("https://github.com/src-d/lookout"),
+			TargetURL:   strptr("https://github.com/sniperkit/snk.fork.lookout"),
 			Description: strptr("The analysis is in progress"),
 			Context:     strptr("lookout"),
 		})

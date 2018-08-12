@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 11:57:50.86147846 +0200 CEST m=+0.186676333
+- Status: analyzed
+*/
+
 package server
 
 import (
@@ -5,12 +11,13 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/src-d/lookout"
-	"github.com/src-d/lookout/pb"
-	"github.com/src-d/lookout/store"
-	"github.com/src-d/lookout/store/models"
 	log "gopkg.in/src-d/go-log.v1"
 	yaml "gopkg.in/yaml.v2"
+
+	"github.com/sniperkit/snk.fork.lookout"
+	"github.com/sniperkit/snk.fork.lookout/pb"
+	"github.com/sniperkit/snk.fork.lookout/store"
+	"github.com/sniperkit/snk.fork.lookout/store/models"
 )
 
 // Config is a server configuration

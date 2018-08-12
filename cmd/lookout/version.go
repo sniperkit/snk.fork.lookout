@@ -1,6 +1,14 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 11:57:50.86147846 +0200 CEST m=+0.186676333
+- Status: analyzed
+*/
+
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // VersionCommand represents the `version` command of lookout CLI.
 type VersionCommand struct {
